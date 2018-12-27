@@ -1,0 +1,4 @@
+<aura:component>
+    <aura:attribute name="fieldName" type="String"/>
+    <lightning:inputField fieldName="{!v.fieldName}" />
+</aura:component>

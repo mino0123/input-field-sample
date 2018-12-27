@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <lightning:card title="Form implmented with Aura Component">
+        <lightning:recordEditForm objectApiName="Account">
+            <c:myFieldAura fieldName="Name" />
+            <c:myFieldAura fieldName="Type" />
+        </lightning:recordEditForm>
+    </lightning:card>
+</aura:component>	

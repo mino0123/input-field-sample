@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/my-field-lwc": [
+                "myFieldLwc/myFieldLwc.js"
+            ],
+            "c/my-page-lwc": [
+                "myPageLwc/myPageLwc.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}
